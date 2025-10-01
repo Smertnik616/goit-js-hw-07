@@ -7,7 +7,7 @@ input.addEventListener('input', () => {
 
     if (trimmedValue !== '') {
     span.textContent = trimmedValue;
-} else {
-    span.textContent = '';
+}   else {
+    span.textContent = 'Anonymous';
 }
 });
